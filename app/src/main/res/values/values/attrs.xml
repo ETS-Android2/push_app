@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorPrimary" format="color"/>
+    <attr name="colorPrimaryDark" format="color"/>
+    <attr name="colorAccent" format="color"/>
+    <attr name="colorTextBlack" format="color"/>
+    <attr name="colorTextWhite" format="color"/>
+    <attr name="colorBetweenPrimaryAndPrimaryDark" format="color"/>
+    <attr name="colorTextGray" format="color"/>
+
+    <attr name="colorPrimaryTrans" format="color"/>
+    <attr name="colorBetweenPrimaryAndPrimaryDarkTrans" format="color"/>
+    <attr name="colorPrimaryDarkTrans" format="color"/>
+    <attr name="colorAccentTrans" format="color"/>
+    <attr name="colorTextBlackTrans" format="color"/>
+    <attr name="colorTextWhiteTrans" format="color"/>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">weather</string>
+    <string name="button_home">home</string>
+    <string name="button_favourites">favourites</string>
+    <string name="button_search">search</string>
+    <string name="button_settings">settings</string>
+    <string name="startup_text">BOGODA\n:-DDD</string>
+    <string name="icon_description">this is app\'s logo</string>
+    <string name="placeholder">hello there</string>
+    <string name="about">about</string>
+    <string name="about_text">Bogoda versja 0.8 closed-alpha\nautorzy: Kulig Sebastian i Wnęk Karol</string>
+    <string name="localization">lokalizacja</string>
+</resources>

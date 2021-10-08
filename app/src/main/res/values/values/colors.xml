@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    <color name="colorPrimary">#66A5AD</color>-->
+    <!--    <color name="colorPrimaryDark">#07575B</color>-->
+    <!--    <color name="colorAccent">#C4DFE6</color>-->
+    <!--    <color name="colorTextBlack">#003B46</color>-->
+    <!--    <color name="colorTextWhite">#FFFFFF</color>-->
+
+    <!--    <color name="colorPrimary">#4D648D</color>-->
+    <!--    <color name="colorPrimaryDark">#283655</color>-->
+    <!--    <color name="colorAccent">#D0E1F9</color>-->
+    <!--    <color name="colorTextBlack">#1E1F26</color>-->
+    <!--    <color name="colorTextWhite">#FFFFFF</color>-->
+
+    <color name="colorPrimary">#6EB5C0</color>
+    <color name="colorBetweenPrimaryAndPrimaryDark">#3791A2</color>
+    <color name="colorPrimaryDark">#006C84</color>
+    <color name="colorAccent">#FFCCBB</color>
+    <color name="colorTextBlack">#1E1F26</color>
+    <color name="colorTextWhite">#FFFFFF</color>
+    <color name="colorTextGray">#808080</color>
+
+    <color name="colorPrimaryTrans">#406EB5C0</color>
+    <color name="colorBetweenPrimaryAndPrimaryDarkTrans">#403791A2</color>
+    <color name="colorPrimaryDarkTrans">#40006C84</color>
+    <color name="colorAccentTrans">#40FFCCBB</color>
+    <color name="colorTextBlackTrans">#201E1F26</color>
+    <color name="colorTextWhiteTrans">#20FFFFFF</color>
+    <color name="transparent">#00000000</color>
+</resources>

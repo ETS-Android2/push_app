@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <!-- transparent black background -->
+            <solid android:color="?attr/colorTextBlackTrans"/>
+            <!-- draw 10 dp radius for each corner -->
+            <corners android:radius="10dp"/>
+        </shape>
+    </item>
+</selector>
