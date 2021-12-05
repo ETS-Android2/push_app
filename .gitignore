@@ -92,10 +92,10 @@ sourceCode/app/.idea
 sourceCode/app/.gradle
 sourceCode/gradle
 
-sourceCode/build.gradle
-sourceCode/gradle.properites
-sourceCode/gradlew
-sourceCode/gradlew.bat
-sourceCode/local.properties
-sourceCode/settings.gradle
+*.build.gradle
+*.gradle.properites
+*.gradlew
+*.gradlew.bat
+*.local.properties
+*.settings.gradle
 
