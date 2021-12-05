@@ -90,12 +90,12 @@ sourceCode/app/debug
 
 sourceCode/app/.idea
 sourceCode/app/.gradle
-sourceCode/app/gradle
+sourceCode/gradle
 
-sourceCode/app/build.gradle
-sourceCode/app/gradle.properites
-sourceCode/app/gradlew
-sourceCode/app/gradlew.bat
-sourceCode/app/local.properties
-sourceCode/app/settings.gradle
+sourceCode/build.gradle
+sourceCode/gradle.properites
+sourceCode/gradlew
+sourceCode/gradlew.bat
+sourceCode/local.properties
+sourceCode/settings.gradle
 
