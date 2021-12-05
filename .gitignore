@@ -83,3 +83,7 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+sourceCode/app/build
+sourceCode/app/release
+sourceCode/app/debug
