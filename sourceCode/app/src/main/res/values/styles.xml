@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorBetweenPrimaryAndPrimaryDark">@color/colorBetweenPrimaryAndPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorTextBlack">@color/colorTextBlack</item>
+        <item name="colorTextWhite">@color/colorTextWhite</item>
+        <item name="colorTextGray">@color/colorTextGray</item>
+
+        <item name="colorPrimaryTrans">@color/colorPrimaryTrans</item>
+        <item name="colorBetweenPrimaryAndPrimaryDarkTrans">@color/colorBetweenPrimaryAndPrimaryDarkTrans</item>
+        <item name="colorPrimaryDarkTrans">@color/colorPrimaryDarkTrans</item>
+        <item name="colorAccentTrans">@color/colorAccentTrans</item>
+        <item name="colorTextBlackTrans">@color/colorTextBlackTrans</item>
+        <item name="colorTextWhiteTrans">@color/colorTextWhiteTrans</item>
+
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+        <item name="colorControlNormal">@color/colorTextGray</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+    </style>
+
+
+    <style name="FullscreenTheme"  parent="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@drawable/gradient</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/betweenPrimaryAndPrimaryDark</item>
+        <item name="colorBetweenPrimaryAndPrimaryDark">@color/colorBetweenPrimaryAndPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorTextBlack">@color/colorTextBlack</item>
+        <item name="colorTextWhite">@color/colorTextWhite</item>
+        <item name="colorTextGray">@color/colorTextGray</item>
+
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
+
+        <item name="android:windowActionBar">false</item>
+        <item name="android:textColorPrimary">@color/colorTextBlack</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColorHint">@color/colorTextBlack</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+</resources>

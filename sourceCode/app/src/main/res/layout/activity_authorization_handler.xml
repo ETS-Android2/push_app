@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:rowCount="4"
+    android:columnCount="1"
+    android:focusableInTouchMode="true"
+    tools:context=".AuthorizationHandler"
+    android:background="@drawable/gradient">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:background="@drawable/relative_layout_rounded_corners"
+        >
+
+        <TextView
+            android:id="@+id/login_header"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:text="@string/app_name"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:textColor="@color/colorTextBlack"
+            >
+        </TextView>
+        <ImageView
+            android:id="@+id/icon_startup"
+            android:stateListAnimator="@null"
+            android:elevation="5dp"
+            android:contentDescription="@string/icon_description"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleX="1"
+            android:scaleY="1"
+            tools:src="@mipmap/logo_1"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/logo_1">
+
+        </ImageView>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/relative_layout_rounded_corners"
+        >
+
+        <TextView
+            android:id="@+id/sign_in_static_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextBlack"
+            android:text="@string/sign_in"
+            >
+        </TextView>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/curiosity_box"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="3"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        >
+    </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:weightSum="2"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/relative_layout_rounded_corners"
+            >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+                <Button
+                    android:id="@+id/button_email"
+                    android:text="@string/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_centerInParent="true"
+                    android:padding="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="@drawable/rounded_button"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+                <Button
+                    android:id="@+id/button_anonymous"
+                    android:text="@string/anon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/rounded_button"
+                    />
+            </RelativeLayout>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/placeholder"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        >
+    </RelativeLayout>
+</GridLayout>
