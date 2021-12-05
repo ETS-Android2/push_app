@@ -87,3 +87,15 @@ lint/tmp/
 sourceCode/app/build
 sourceCode/app/release
 sourceCode/app/debug
+
+sourceCode/app/.idea
+sourceCode/app/.gradle
+sourceCode/app/gradle
+
+sourceCode/app/build.gradle
+sourceCode/app/gradle.properites
+sourceCode/app/gradlew
+sourceCode/app/gradlew.bat
+sourceCode/app/local.properties
+sourceCode/app/settings.gradle
+
