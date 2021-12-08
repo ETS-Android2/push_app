@@ -16,9 +16,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.push_app.DatabaseHandler;
+import com.example.push_app.handlers.DatabaseHandler;
 import com.example.push_app.R;
-import com.example.push_app.Toaster;
+import com.example.push_app.handlers.Toaster;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
@@ -139,7 +139,7 @@ public class ResponseFragment extends Fragment {
     private void sendResponse(String body, String request) {
 
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-        DatabaseReference mFirebaseDatabase = FirebaseDatabase.getInstance("<firebase instance>").getReference();
+        DatabaseReference mFirebaseDatabase = FirebaseDatabase.getInstance("https://push-app-85ab0-default-rtdb.europe-west1.firebasedatabase.app").getReference();
         DatabaseReference respRef = mFirebaseDatabase.child("users").child(user.getUid()).child("response").child(request).child("dummy_thicc_key");
 
         DatabaseHandler.sendToDB(respRef, body);

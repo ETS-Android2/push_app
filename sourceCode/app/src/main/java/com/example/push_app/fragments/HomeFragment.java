@@ -16,10 +16,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.push_app.AuthorizationHandler;
-import com.example.push_app.FCMHandler;
+import com.example.push_app.handlers.AuthorizationHandler;
+import com.example.push_app.handlers.FCMHandler;
 import com.example.push_app.R;
-import com.example.push_app.SettingsPopDelete;
+import com.example.push_app.handlers.SettingsPopDelete;
 import com.firebase.ui.auth.AuthUI;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -35,7 +35,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.messaging.FirebaseMessaging;
 
-import com.example.push_app.Toaster;
+import com.example.push_app.handlers.Toaster;
 
 /**
  * Home fragment, it is the main screen, it handles user logout, deleting his data, subscribing to topics.
@@ -59,7 +59,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mFirebaseDatabase = FirebaseDatabase.getInstance("<firebase instance>").getReference();
+        mFirebaseDatabase = FirebaseDatabase.getInstance("https://push-app-85ab0-default-rtdb.europe-west1.firebasedatabase.app").getReference();
         currentUser = FirebaseAuth.getInstance().getCurrentUser();
         loggedUser = getArguments().getString("loggedUser");
 

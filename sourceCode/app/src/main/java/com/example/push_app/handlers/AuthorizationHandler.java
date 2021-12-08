@@ -1,9 +1,7 @@
-package com.example.push_app;
+package com.example.push_app.handlers;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
@@ -11,11 +9,11 @@ import android.widget.Toast;
 
 import androidx.activity.result.ActivityResultCallback;
 import androidx.activity.result.ActivityResultLauncher;
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.push_app.R;
+import com.example.push_app.activities.MainActivity;
 import com.firebase.ui.auth.AuthMethodPickerLayout;
 import com.firebase.ui.auth.AuthUI;
 import com.firebase.ui.auth.FirebaseAuthUIActivityResultContract;
@@ -119,7 +117,7 @@ public class AuthorizationHandler extends AppCompatActivity {
      */
     private void writeNewUserToFirebase(FirebaseUser user) {
 
-        DatabaseReference mFirebaseDatabase = FirebaseDatabase.getInstance("<firebase instance>").getReference();
+        DatabaseReference mFirebaseDatabase = FirebaseDatabase.getInstance("https://push-app-85ab0-default-rtdb.europe-west1.firebasedatabase.app").getReference();
         String userUid = user.getUid();
         DatabaseReference userNameRef = mFirebaseDatabase.child("users").child(userUid);
 

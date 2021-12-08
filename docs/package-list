@@ -1,2 +1,3 @@
-com.example.push_app
+com.example.push_app.activities
 com.example.push_app.fragments
+com.example.push_app.handlers

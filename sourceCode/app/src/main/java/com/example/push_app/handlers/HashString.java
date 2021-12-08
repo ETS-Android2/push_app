@@ -1,4 +1,4 @@
-package com.example.push_app;
+package com.example.push_app.handlers;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

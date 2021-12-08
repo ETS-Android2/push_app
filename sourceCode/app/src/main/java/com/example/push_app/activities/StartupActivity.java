@@ -1,4 +1,4 @@
-package com.example.push_app;
+package com.example.push_app.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +10,8 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 
+import com.example.push_app.handlers.AuthorizationHandler;
+import com.example.push_app.R;
 import com.google.firebase.auth.FirebaseAuth;
 import java.util.Objects;
 

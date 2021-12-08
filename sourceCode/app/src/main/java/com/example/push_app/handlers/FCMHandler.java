@@ -1,4 +1,4 @@
-package com.example.push_app;
+package com.example.push_app.handlers;
 
 import com.google.firebase.messaging.FirebaseMessaging;
 

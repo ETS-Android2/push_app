@@ -1,4 +1,4 @@
-package com.example.push_app;
+package com.example.push_app.handlers;
 
 import android.app.AlertDialog;
 import android.app.Dialog;

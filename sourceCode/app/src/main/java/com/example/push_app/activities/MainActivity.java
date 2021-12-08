@@ -1,4 +1,4 @@
-package com.example.push_app;
+package com.example.push_app.activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
@@ -7,6 +7,10 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.example.push_app.handlers.AppStatus;
+import com.example.push_app.handlers.MyFirebaseMessagingService;
+import com.example.push_app.R;
+import com.example.push_app.handlers.Toaster;
 import com.example.push_app.fragments.ResponseFragment;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
