@@ -41,7 +41,7 @@ Ekran startowy aplikacji
 
 Ekran logowania. Użytkownik ma opcję logowania poprzez adres email lub jako gość.
 <br/>
-<img src="images/logoinpng">
+<img src="images/login.png">
 
 Tworzenie nowego użytkownika <br/>
 <img src="images/login_new.png">
